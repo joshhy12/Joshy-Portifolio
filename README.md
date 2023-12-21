@@ -40,7 +40,7 @@ To view my portfolio and explore the projects, follow these steps:
 
 I am open to collaboration and new opportunities. Feel free to reach out to me:
 
-- Email: [your.joshylucas1.com](mailto:your.email@example.com)
+- Email: [joshylucas1.com](mailto:your.email@example.com)
 
 Let's connect and create something amazing together!
 
