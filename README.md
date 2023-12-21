@@ -1,18 +1,49 @@
-# [Global: HTML5 website template](http://buckymaler.com/global)
+# Joshy's Portfolio
 
-### [Featured on Freebiesbug](http://freebiesbug.com/psd-freebies/global-futuristic-one-page-portfolio-psd-html/)
+Welcome to my portfolio! This repository showcases my skills, experiences, and projects in the field of software development and design.
 
-Global is a modern and sleek website template crafted for professionals in the creative industry. Global can serve as a single page portfolio or be easily modified to serve as the perfect beginning for a hip creative agency.
+## Table of Contents
 
-The original PSD is included and was provided by [Sergey Melnik](https://www.behance.net/SergeyMelnik).
+- [Introduction](#introduction)
+- [Projects](#projects)
+- [Work Request Form](#work-request-form)
+- [Getting Started](#getting-started)
+- [Contact](#contact)
 
-This project was developed with HTML5, Sass, jQuery, and Hammer.js.
+## Introduction
 
-Performance basics are covered: assets are minified into single CSS and JS files, and the images are optimized.
+Hello, I'm Joshua (Joshy), a passionate software developer with a focus on [mention specific skills or technologies]. This portfolio reflects my journey, skills, and the projects I've worked on.
 
-[LIVE PREVIEW](http://buckymaler.com/global)
+## Projects
 
-## Misc:
+Here are some featured projects from my portfolio:
 
-* Follow Bucky: [Twitter](https://twitter.com/BuckyMaler), [GitHub](https://github.com/BuckyMaler)
-* Follow Sergey: [Dribbble](https://dribbble.com/sergeymelnik), [Bēhance](https://www.behance.net/SergeyMelnik)
+- **[Project 1](#)**: Brief description of the project.
+- **[Project 2](#)**: Brief description of the project.
+- **[Project 3](#)**: Brief description of the project.
+
+Each project folder contains detailed information about the technologies used, challenges faced, and the outcomes achieved.
+
+## Work Request Form
+
+Explore the [Work Request Form](#) to get in touch with me regarding potential collaborations or project opportunities. Feel free to select the type of work you're interested in, provide your name and email, and submit the form.
+
+## Getting Started
+
+To view my portfolio and explore the projects, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/joshhy12/Joshy-Portifolio.git`
+2. Navigate to the project directory: `cd Joshy-Portifolio`
+3. Open the `index.html` file in your preferred web browser.
+
+## Contact
+
+I am open to collaboration and new opportunities. Feel free to reach out to me:
+
+- Email: [your.joshylucas1.com](mailto:your.email@example.com)
+
+Let's connect and create something amazing together!
+
+---
+
+Thank you for visiting my portfolio. I look forward to hearing from you!

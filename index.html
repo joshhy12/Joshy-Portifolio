@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Global</title>
+  <title>Joshy Lucas</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -60,19 +60,22 @@
                 <img src="assets/img/introduction-visual.png" alt="Welcome">
               </div>
               <div class="intro--options">
-                <a href="#0">
-                  <h3>Metiew &amp; Smith</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                <a href="#project1">
+                  <h3>Software Engineer at SJ Softwares And Consultancy </h3>
+                  <p>I played a key role in developing innovative solutions for complex problems.</p>
                 </a>
-                <a href="#0">
-                  <h3>Fantasy interactive</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+              
+                <a href="#project2">
+                  <h3>Full Stack Developer at Home Affairs Solutions</h3>
+                  <p> I had the opportunity to work on diverse projects that honed my skills in both front-end and back-end development. </p>
                 </a>
-                <a href="#0">
-                  <h3>Paul &amp; shark</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+              
+                <a href="#project3">
+                  <h3>Mobile App Developer at DEF Innovations</h3>
+                  <p>I focused on crafting user-friendly and visually appealing mobile applications.</p>
                 </a>
               </div>
+              
             </div>
           </li>
           <li class="l-section section">
@@ -85,8 +88,8 @@
                       <div class="slider--item-image">
                         <img src="assets/img/work-victory.jpg" alt="Victory">
                       </div>
-                      <p class="slider--item-title">Victory</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                      <p class="slider--item-title">Mobile App Development</p>
+                      <p class="slider--item-description">innovative and efficient</p>
                     </a>
                   </li>
                   <li class="slider--item slider--item-center">
@@ -94,8 +97,8 @@
                       <div class="slider--item-image">
                         <img src="assets/img/work-metiew-smith.jpg" alt="Metiew and Smith">
                       </div>
-                      <p class="slider--item-title">Metiew &amp; Smith</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                      <p class="slider--item-title">Fullstack Development</p>
+                      <p class="slider--item-title">Experiences </p>
                     </a>
                   </li>
                   <li class="slider--item slider--item-right">
@@ -103,8 +106,8 @@
                       <div class="slider--item-image">
                         <img src="assets/img/work-alex-nowak.jpg" alt="Alex Nowak">
                       </div>
-                      <p class="slider--item-title">Alex Nowak</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                      <p class="slider--item-title">API Development</p>
+                      <p class="slider--item-title">robust API</p>
                     </a>
                   </li>
                 </ul>
@@ -178,7 +181,21 @@
             <div class="hire">
               <h2>You want us to do</h2>
               <!-- checkout formspree.io for easy form setup -->
-              <form class="work-request">
+              <script>
+                function validateForm() {
+                  var name = document.getElementById('name').value.trim();
+                  var email = document.getElementById('email').value.trim();
+                  var selectedOptions = document.querySelectorAll('.work-request--options input:checked');
+            
+                  if (name === '' || email === '' || selectedOptions.length === 0) {
+                    alert('Please fill in all fields and select at least one work option.');
+                    return false;
+                  }
+            
+                  return true;
+                }
+              </script>
+              <form class="work-request" onsubmit="return validateForm()">
                 <div class="work-request--options">
                   <span class="options-a">
                     <input id="opt-1" type="checkbox" value="app design">
@@ -247,11 +264,11 @@
                 </div>
                 <div class="work-request--information">
                   <div class="information-name">
-                    <input id="name" type="text" spellcheck="false">
+                    <input id="name" type="text" spellcheck="false" required>
                     <label for="name">Name</label>
                   </div>
                   <div class="information-email">
-                    <input id="email" type="email" spellcheck="false">
+                    <input id="email" type="email" spellcheck="false" required>
                     <label for="email">Email</label>
                   </div>
                 </div>
