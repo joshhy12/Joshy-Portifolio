@@ -12,7 +12,7 @@ Welcome to my portfolio! This repository showcases my skills, experiences, and p
 
 ## Introduction
 
-Hello, I'm Joshua (Joshy), a passionate software developer with a focus on [mention specific skills or technologies]. This portfolio reflects my journey, skills, and the projects I've worked on.
+Hello, I'm Joshua (Joshy), a passionate software developer with a focus on [Web development]. This portfolio reflects my journey, skills, and the projects I've worked on.
 
 ## Projects
 
